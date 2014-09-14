@@ -1,0 +1,65 @@
+/** @define Input; use strict */
+/*
+ * inputs
+ */
+:root {
+  --Input-backgroundColor: white;
+  --Input-color: #222;
+  --Input-borderColor: #ccc;
+  --Input-boxShadowColor: #bbb;
+  --Input-font: Serif;
+  --InputFlexyFullWidth: 320px;
+  --Input-actionable-input-height: 2.5rem;
+  --InputSelectable-color: var(--green);
+  --InputSelectable-size: 1.75rem;
+  --InputSelectableSelected-size: calc(.571428571 * var(--InputSelectable-size));
+
+}
+
+[data-am-Input] {
+  background: var(--Input-backgroundColor);
+  border: 1px solid var(--Input-borderColor);
+  padding: .5rem;
+  box-shadow: inset 0 0 4px 0 var(--Input-boxShadowColor);
+  color: var(--Input-color);
+  font: var(--Input-font);
+  font-weight: 400;
+}
+
+[data-am-Input~="flexyFull"] {
+  width: 100%;
+  max-width: var(--InputFlexyFullWidth);
+}
+
+[data-am-Input~="full"] {
+  width: 100%;
+}
+
+[data-am-Input~="actionable"] {
+  height: var(--Input-actionable-input-height);
+}
+
+[data-am-Input~="selectable"] {
+  width: var(--InputSelectable-size);
+  height: var(--InputSelectable-size);
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+[data-am-Input~="selectable"]:checked:after {
+  content: "";
+  width: var(--InputSelectableSelected-size);
+  position: absolute;
+  top: calc(50% - (var(--InputSelectableSelected-size) / 2));
+  left: calc(50% - (var(--InputSelectableSelected-size) / 2));
+  background: var(--InputSelectable-color);
+}
+
+[data-am-Input~="selectable"][type="radio"],
+[data-am-Input~="selectable"][type="radio"]:checked:after {
+  border-radius: 100%;
+}

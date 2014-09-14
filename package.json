@@ -1,0 +1,21 @@
+{
+  "name": "input",
+  "description": "inputs",
+  "version": "0.1.0",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {},
+  "keywords": [
+    "browser",
+    "css-components",
+    "suitcss",
+    "crank",
+    "style"
+  ]
+}
