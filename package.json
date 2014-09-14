@@ -1,6 +1,6 @@
 {
-  "name": "input",
-  "description": "inputs",
+  "name": "am-input",
+  "description": "am css input component",
   "version": "0.1.0",
   "style": "index.css",
   "files": [
@@ -10,12 +10,15 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {},
-  "repository": {},
+  "repository": "VinSpee/am-Input",
   "keywords": [
     "browser",
     "css-components",
     "suitcss",
     "crank",
     "style"
-  ]
+  ],
+  "main": "index.css",
+  "author": "Vince Speelman (v@vinspee.me)",
+  "license": "MIT"
 }
