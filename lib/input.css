@@ -10,7 +10,7 @@
   --Input-font: Serif;
   --InputFlexyFullWidth: 320px;
   --Input-actionable-input-height: 2.5rem;
-  --InputSelectable-color: var(--green);
+  --InputSelectable-color: black;
   --InputSelectable-size: 1.75rem;
   --InputSelectableSelected-size: calc(.571428571 * var(--InputSelectable-size));
 
