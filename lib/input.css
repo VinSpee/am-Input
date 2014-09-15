@@ -53,6 +53,7 @@
 [data-am-Input~="selectable"]:checked:after {
   content: "";
   width: var(--InputSelectableSelected-size);
+  height: var(--InputSelectableSelected-size);
   position: absolute;
   top: calc(50% - (var(--InputSelectableSelected-size) / 2));
   left: calc(50% - (var(--InputSelectableSelected-size) / 2));
