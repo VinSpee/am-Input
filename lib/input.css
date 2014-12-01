@@ -16,7 +16,7 @@
 
 }
 
-[data-am-Input] {
+[data-am-Input] input {
   background: var(--Input-backgroundColor);
   border: 1px solid var(--Input-borderColor);
   padding: .5rem;
@@ -26,16 +26,16 @@
   font-weight: 400;
 }
 
-[data-am-Input~="flexyFull"] {
+[data-am-Input~="flexyFull"] input {
   width: 100%;
   max-width: var(--InputFlexyFullWidth);
 }
 
-[data-am-Input~="full"] {
+[data-am-Input~="full"] input {
   width: 100%;
 }
 
-[data-am-Input~="actionable"] {
+[data-am-Input~="actionable"] input {
   height: var(--Input-actionable-input-height);
 }
 
