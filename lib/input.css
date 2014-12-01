@@ -22,7 +22,7 @@
   padding: .5rem;
   box-shadow: inset 0 0 4px 0 var(--Input-boxShadowColor);
   color: var(--Input-color);
-  font: var(--Input-font);
+  font-family: var(--Input-font);
   font-weight: 400;
 }
 
